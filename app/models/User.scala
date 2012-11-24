@@ -33,10 +33,4 @@ trait UserComponent {
     }
 
   }
-
-
-
-
-
-
 }

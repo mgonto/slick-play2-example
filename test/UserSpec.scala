@@ -6,7 +6,6 @@ import play.api.test._
 import play.api.test.Helpers._
 import models.{User, AppDB}
 import slick.session.Session
-import scala.slick.driver.H2Driver.simple._
 
 
 /**
