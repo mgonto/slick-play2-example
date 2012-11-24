@@ -8,9 +8,8 @@ object ApplicationBuild extends Build {
   val appVersion      = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
-    // Add your project dependencies here,
     jdbc,
-    anorm
+    "com.typesafe" % "slick_2.10.0-RC1" % "0.11.2"
   )
 
 
